@@ -1,0 +1,24 @@
+$vue-blue: #32485F;
+$vue-green: #00C185;
+
+.button {
+  background-color: #f44336; /* Red */
+}
+
+.Aligner {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
